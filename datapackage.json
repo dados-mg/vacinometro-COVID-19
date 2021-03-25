@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "vacinas",
-      "path": "https://coronavirus.saude.mg.gov.br/images/microdados/xlsx_vacinas.xlsx",
+      "name": "vacinas-fev",
+      "path": "data/vacinas-fev",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -37,8 +37,8 @@
           },
           {
             "name": "Data",
-            "type": "integer",
-            "format": "default",
+            "type": "date",
+            "format": "any",
             "title": "Data de vacinação",
             "description": "Data do registro da vacinação"
           },
